@@ -1,4 +1,57 @@
 .nav-item {
     margin-left: 20px;
-
+}
+.topChoiceRow{
+    text-align: center;
+    margin-top: 3vw;
+}
+.topChoiceRow p {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    font-size: 25px;
+}
+.choiceRow, .topChoiceRow {
+    padding: 2vw;
+}
+.choiceRow {
+    margin-bottom: 13%;
+}
+.choiceIcons {
+    width: 15vw;
+    text-align: center;
+    float: left;
+    position: relative;
+}
+.choiceIcons img, .topChoiceIcon img{
+    width: 10vw;
+    border: 0.4vw solid #343a40;
+    border-radius: 10vw;
+    background: radial-gradient(white 60%, black);
+}
+.choiceIcons img:hover, .topChoiceIcon img:hover {
+    background: radial-gradient(white 50%, grey);
+}
+.choiceIcons h1 {
+    font-size: 2vw;
+}
+.choiceText {
+    padding: 1vw;
+    width: 76vw;
+    float: left;
+    font-size: 20px;
+}
+#choiceBlueButton img:active {
+    background: #3894c6;
+}
+#choiceBlueOne {
+    transition: opacity 1s;
+}
+#choiceBlueTwo {
+    transition: opacity 1s;
+}
+.hidden {
+    display: none;
+}
+.visuallyhidden {
+    opacity: 0;
 }

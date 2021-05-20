@@ -57,22 +57,22 @@
 }
 .topOppRow {
     text-align: center;
-    margin-top: 3vw;
+    margin-top: 55px;
     animation: fadeIn ease 1s;
 }
 .topOppText {
-    margin-left: 12vw;
-    margin-right: 12vw;
+    margin-left: 13%;
+    margin-right: 13%;
     font-size: 18px;
-}
-.oppRow, .topOppRow {
-    padding: 2vw;
 }
 .oppRow {
     animation: fadeIn ease 2s;
 }
+.topOppRow, .oppRow {
+    padding: 2vw;
+}
 .oppIcons {
-    width: 15vw;
+    width: 14%;
     text-align: center;
     float: left;
     position: absolute;

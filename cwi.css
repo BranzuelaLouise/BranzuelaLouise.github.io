@@ -47,12 +47,12 @@
 .oppRow {
     animation: fadeIn ease 2s;
     padding: 3%;
+    min-height: 17vw;
 }
 .oppIcons {
     width: 14%;
     text-align: center;
     float: left;
-    position: absolute;
 }
 .oppIcons img {
     width: 10vw;
@@ -69,13 +69,13 @@
     margin-left: 15%;
     min-height: 10vw;
     margin-right: 4%;
+    opacity: 1;
 }
 .ethicalButtons {
     float: left;
-    margin-left: 11%;
-    margin-right: 11%;
     text-align: center;
-    min-height: 17vw;
+    width: 33%;
+    opacity: 1;
 }
 .ethicalButtons img {
     width: 10vw;
@@ -105,3 +105,18 @@
 .visuallyhidden {
     opacity: 0;
 }
+#topicExplain {
+    font-size: 20px;
+}
+#repoLink {
+    width: 100%;
+}
+.meetingButton {
+    width: 25%;
+    transition: opacity .25s;
+}
+#dayOne img:active, #dayTwo img:active, #dayThree img:active, #dayFour img:active {
+    background: black;
+}
+
+

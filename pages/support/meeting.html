@@ -8,6 +8,7 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="../../cwi.js"></script>
 
         <title>COMP501</title>
     </head>
@@ -47,13 +48,134 @@
                             <a class="dropdown-item" href="peer.html">Peer Evaluation</a>
                             <a class="dropdown-item active" href="#">Meeting Minutes</a>
                             <a class="dropdown-item" href="portfolio.html">Project Portfolio</a>
-                            <a class="dropdown-item" href="rubric.html">Assessment Rubric</a>
                             <a class="dropdown-item" href="conformance.html">Guideline Conformance</a>
                         </div>
                     </li>
                 </ul>
             </div>
         </nav>
-         
+        <div class="topOppRow">
+            <div class="topOppIcon">
+                <h1>Meeting Minutes</h1>
+            </div>
+        </div>
+        <div class="oppRow">
+            <div class="ethicalButtons meetingButton" id="dayOne">
+                <img src="../../images/day1.png" alt="repolink" onclick="meetingTransition('one')">
+                <h2>Day 1</h2>
+            </div>
+            <div class="oppText hidden visuallyhidden" id="dayOneText">
+                <b>6th of May 2021</b>
+                <p>Members present: Aidan, Ange, Louise</p>
+                <b>Agenda:</b>
+                <ul>
+                    <li>Introduction of team members </li>
+                    <ul>
+                        <li>Complete</li>
+                    </ul>
+                    <li>Select topic to investigate </li>
+                    <ul>
+                        <li>Cyber Crime</li>
+                    </ul>
+                    <li>Choose a method of collaboration </li>
+                    <ul>
+                        <li>MS Teams group set up, all members added </li>
+                    </ul>
+                    <li>Allocate work to individuals </li>
+                    <ul>
+                        <li>Aidan – Opportunities</li>
+                        <li>Ange – Risks </li>
+                        <li>Louise – Choices </li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="ethicalButtons meetingButton" id="dayTwo">
+                <img src="../../images/day2.png" alt="repolink" onclick="meetingTransition('two')">
+                <h2>Day 2</h2>
+            </div>
+            <div class="oppText hidden visuallyhidden" id="dayTwoText">
+                <b>12th of May 2021</b>
+                <p>Members present: Aidan, Ange, Louise</p>
+                <b>Agenda:</b>
+                <ul>
+                    <li>Expand on topic to be more specific </li>
+                    <ul>
+                        <li>Topic changed to cyber crime and large-scale intrusions </li>
+                    </ul>
+                    <li>Collate individual efforts into one slide for presentation </li>
+                    <ul>
+                        <li>Complete </li>
+                    </ul>
+                    <li>Dry run of presentation </li>
+                    <ul>
+                        <li>Ran slightly too long, modified slide to reduce duration </li>
+                    </ul>
+                    <li>Assign roles to group members </li>
+                    <ul>
+                        <li>Aidan – Collate and research info </li>
+                        <li>Louise – Create website and transfer information </li>
+                        <li>Ange – Managing and Interpreting info </li>
+                    </ul>
+                    <li>Check up on individual work </li>
+                    <ul>
+                        <li>Everyone tracking well, adding one more point each </li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="ethicalButtons meetingButton" id="dayThree">
+                <img src="../../images/day3.png" alt="repolink" onclick="meetingTransition('three')">
+                <h2>Day 3</h2>
+            </div>
+            <div class="oppText hidden visuallyhidden" id="dayThreeText">
+                <b>19th of May 2021</b>
+                <p>Members present: Aidan, Ange, Louise</p>
+                <b>Agenda:</b>
+                <ul>
+                    <li>Collate information for progress update </li>
+                    <ul>
+                        <li>All team members have produced quality content for the presentation. Louise will add  to the website </li>
+                    </ul>
+                    <li>Discuss ethics </li>
+                    <ul>
+                        <li>Some discussion relating to ethical considerations around our topic </li>
+                    </ul>
+                    <li>Discuss referencing </li>
+                    <ul>
+                        <li>APA 7th edition used as per instructions on website, all team members now familiar with this style </li>
+                    </ul>
+                    <li>Assign  work for coming week </li>
+                    <ul>
+                        <li>All group members need to add some final tweaks to their information before next meeting </li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="ethicalButtons meetingButton" id="dayFour">
+                <img src="../../images/day4.png" alt="repolink" onclick="meetingTransition('four')">
+                <h2>Day 4</h2>
+            </div>
+            <div class="oppText hidden visuallyhidden" id="dayFourText">
+                <b>26th of May 2021</b>
+                <p>Members present: Aidan, Ange, Louise</p>
+                <b>Agenda:</b>
+                <ul>
+                    <li>Determine order of speakers </li>
+                    <ul>
+                        <li>Aidan > Louise > Ange </li>
+                    </ul>
+                    <li>Presentation dry run </li>
+                    <ul>
+                        <li>Some minor tweaks needed with speaking points but overall ran well </li>
+                    </ul>
+                    <li>Edit presentation </li>
+                    <ul>
+                        <li>Edited the powerpoint presentation to include our roles and references </li>
+                    </ul>
+                    <li>Address any final concerns </li>
+                    <ul>
+                        <li>All group members satisfied with product and are prepared for presentation  </li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>

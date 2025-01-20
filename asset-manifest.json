@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BranzuelaLouise.github.io/static/css/main.f855e6bc.css",
-    "main.js": "/BranzuelaLouise.github.io/static/js/main.2f103b8a.js",
-    "static/js/488.1446b851.chunk.js": "/BranzuelaLouise.github.io/static/js/488.1446b851.chunk.js",
-    "index.html": "/BranzuelaLouise.github.io/index.html",
-    "main.f855e6bc.css.map": "/BranzuelaLouise.github.io/static/css/main.f855e6bc.css.map",
-    "main.2f103b8a.js.map": "/BranzuelaLouise.github.io/static/js/main.2f103b8a.js.map",
-    "488.1446b851.chunk.js.map": "/BranzuelaLouise.github.io/static/js/488.1446b851.chunk.js.map"
+    "main.css": "/static/css/main.f855e6bc.css",
+    "main.js": "/static/js/main.9b10d3bf.js",
+    "static/js/488.1446b851.chunk.js": "/static/js/488.1446b851.chunk.js",
+    "index.html": "/index.html",
+    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
+    "main.9b10d3bf.js.map": "/static/js/main.9b10d3bf.js.map",
+    "488.1446b851.chunk.js.map": "/static/js/488.1446b851.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.2f103b8a.js"
+    "static/js/main.9b10d3bf.js"
   ]
 }
